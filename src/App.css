@@ -1,0 +1,23 @@
+.title {
+  text-align: center;
+  border: 2px solid black;
+  margin: 10px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  border: 2px solid blue;
+  padding: 20px;
+}
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  margin-top: auto;
+  text-align: center;
+  padding: 10px;
+}
