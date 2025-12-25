@@ -12,7 +12,7 @@ export async function sendPdfApi(file) {
   const formData = new FormData();
   formData.append("pdf", file);
 
-  const res = await fetch("http://127.0.0.1:8000/convert", {
+  const res = await fetch("https://resonate-backend-o4h8.onrender.com/convert", {
     method: "POST",
     body: formData,
   });

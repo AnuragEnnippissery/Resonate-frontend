@@ -1,15 +1,12 @@
 .title {
   text-align: center;
-  border: 2px solid black;
   margin: 10px;
 }
 .main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 40px;
-  border: 2px solid blue;
-  
+  margin-top: 40px; 
   gap: 25px;
 }
 .page {
@@ -17,7 +14,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border :2px solid  green;
   margin:auto;
   width:100%;
 }
